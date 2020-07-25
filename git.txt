@@ -11,17 +11,6 @@ git status命令可以让我们时刻掌握仓库当前的状态
 git diff顾名思义就是查看difference，显示的格式正是Unix通用的diff格式
 
 
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-/d/dong/study/git_study/git.txt[+] [unix] (13:17 09/04/2020)            12,1 All
 -- INSERT --
 始化一个Git仓库，使用git init命令。
 
@@ -86,6 +75,8 @@ git reset命令既可以回退版本，也可以把暂存区的修改回退到�
 
 
 
+
+远程仓库
 
 第1步：创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：
 
